@@ -27,6 +27,7 @@ function App() {
             // logic for notification
             if (user_id === user._id) {
                 dispatch(addNotification(msgObj));
+                //
             }
         });
 
